@@ -112,12 +112,15 @@ module Webrat
 
     def assert_have_xpath(expected, options = {}, &block)
       hs = HaveXpath.new(expected, options, &block)
-      assert hs.matches?(response_body), hs.failure_message
+      expect(hs.matches?(response_body)).to be_truthy, hs.failure_message
     end
 
     def assert_have_no_xpath(expected, options = {}, &block)
       hs = HaveXpath.new(expected, options, &block)
-      assert !hs.matches?(response_body), hs.negative_failure_message
+      expect(hs.matches?(response_body)).to(
+        be_falsey,
+        hs.negative_failure_message
+      )
     end
 
   end

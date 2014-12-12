@@ -71,14 +71,20 @@ module Webrat
     # the supplied selector
     def assert_have_selector(name, attributes = {}, &block)
       matcher = HaveSelector.new(name, attributes, &block)
-      assert matcher.matches?(response_body), matcher.failure_message
+      expect(matcher.matches?(response_body)).to(
+        be_truthy,
+        matcher.failure_message
+      )
     end
 
     # Asserts that the body of the response
     # does not contain the supplied string or regepx
     def assert_have_no_selector(name, attributes = {}, &block)
       matcher = HaveSelector.new(name, attributes, &block)
-      assert !matcher.matches?(response_body), matcher.negative_failure_message
+      expect(matcher.matches?(response_body)).to(
+        be_falsey,
+        matcher.negative_failure_message
+      )
     end
 
   end
