@@ -1,6 +1,6 @@
 source :rubygems
 gem "rake",             "0.8.7"
-gem "rspec",            "1.2.9"
+gem "rspec",            "3.7.0"
 gem "diff-lcs",         "1.1.2"
 gem "rack",             "1.0.1"
 gem "nokogiri",         "1.4.0"
