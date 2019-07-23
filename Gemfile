@@ -1,5 +1,5 @@
 source :rubygems
-gem "rake",             "0.8.7"
+gem "rake",             "12.3.3"
 gem "rspec",            "1.2.9"
 gem "diff-lcs",         "1.1.2"
 gem "rack",             "1.0.1"
