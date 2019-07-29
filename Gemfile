@@ -2,7 +2,7 @@ source :rubygems
 gem "rake",             "0.8.7"
 gem "rspec",            "1.2.9"
 gem "diff-lcs",         "1.1.2"
-gem "rack",             "1.0.1"
+gem "rack",             "2.0.7"
 gem "nokogiri",         "1.4.0"
 gem "merb-core",        "1.0.15"
 gem "selenium-client",  "1.2.17"
