@@ -1,4 +1,11 @@
-= Webrat {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/brynary/webrat]
+= Webrat 
+
+{<img src="https://api.codeclimate.com/v1/badges/381fc289ad517da90630/maintainability" />}[https://codeclimate.com/github/notonthehighstreet/will_paginate/maintainability]
+{<img src="https://api.codeclimate.com/v1/badges/381fc289ad517da90630/test_coverage" />}[https://codeclimate.com/github/notonthehighstreet/will_paginate/test_coverage]
+{<img src="https://travis-ci.org/notonthehighstreet/webrat.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/notonthehighstreet/webrat]
+{<img src="https://badges.depfu.com/badges/9931b36fc30d4b712cfa1e9e67712523/overview.svg" />}[https://depfu.com/github/notonthehighstreet/webrat?project_id=5030]
+{<img src="https://badges.depfu.com/badges/9931b36fc30d4b712cfa1e9e67712523/count.svg" />}[https://depfu.com/github/notonthehighstreet/webrat?project_id=5030]
+
 
 - http://rdoc.info/github/brynary/webrat/master/frames
 - http://groups.google.com/group/webrat
