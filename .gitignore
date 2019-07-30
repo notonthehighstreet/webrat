@@ -18,4 +18,3 @@ bin
 vendor/gems
 .bundle/
 vendor/bundle/
-Gemfile.lock
